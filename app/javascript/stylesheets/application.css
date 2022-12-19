@@ -4,6 +4,8 @@ Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.
 
 1: @import '~bootstrap/scss/bootstrap';
 2: @import "layouts/navbar";
+3: @import "common";
+4: @import "users/devise";
 
 Backtrace:
 /home/ec2-user/environment/techpitgram/app/javascript/stylesheets/application.scss:1
@@ -51,4 +53,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.\A         on line 1 of /home/ec2-user/environment/techpitgram/app/javascript/stylesheets/application.scss\A \A 1: @import '~bootstrap/scss/bootstrap';\A 2: @import \"layouts/navbar\";"; }
+  content: "Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.\A         on line 1 of /home/ec2-user/environment/techpitgram/app/javascript/stylesheets/application.scss\A \A 1: @import '~bootstrap/scss/bootstrap';\A 2: @import \"layouts/navbar\";\A 3: @import \"common\";\A 4: @import \"users/devise\";"; }
